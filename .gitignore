@@ -1,0 +1,22 @@
+# === Solana-Harvester: Build & Private Key Exclusions ===
+
+# Compiled Binaries
+*.exe
+*.bin
+dist/
+build/
+
+# Private Wallets (DANGER)
+.env
+wallets.json
+private_keys.txt
+*.key
+
+# Logs & Cache
+/logs/
+/cache/
+trade_history.db
+
+# Development
+node_modules/
+.DS_Store
